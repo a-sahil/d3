@@ -7,7 +7,7 @@ const RootLayout = lazy(() => import('./rootLayout/index.js'));
 
 export const AppView = () => {
   return (
-    <ThemeProvider defaultTheme={'dark'}>
+    <ThemeProvider defaultTheme={'light'}>
       <div className="d3 flex items-center justify-center w-full h-full relative">
         <TooltipProvider>
           <RootLayout />

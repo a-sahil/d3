@@ -81,3 +81,58 @@
     }
   }
 }
+
+
+:root.gradient {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: #fff; /* Optional for text */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.light {
+  background: #fff;
+  color: #000;
+}
+
+.dark {
+  background: #000;
+  color: #fff;
+}
+
+.blue {
+  background: #007BFF;
+  color: #fff;
+}
+
+
+/* Apply the theme changes */
+:root.light {
+  --bg-color: #fff;
+  --text-color: #000;
+}
+
+:root.dark {
+  --bg-color: #000;
+  --text-color: #fff;
+}
+
+/* Gradient theme */
+:root.gradient {
+  --bg-color: linear-gradient(to right, #1e90ff, #87cefa); /* blue to light blue */
+  --text-color: #fff;
+}
+
+/* Use these variables in your main layout */
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+ 
+

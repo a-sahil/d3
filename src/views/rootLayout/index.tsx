@@ -10,7 +10,7 @@ const RootLayout = () => {
   return (
     <div
       className={
-        'flex flex-col w-[100svw] h-dvh max-h-[90svh] max-w-[450px] bg-primary-foreground rounded-lg overflow-auto shadow-xl'
+        'flex flex-col w-screen h-dvh max-h-[90svh] max-w-screen bg-primary-foreground rounded-lg overflow-auto shadow-xl'
       }
     >
       <ConnectWallet />

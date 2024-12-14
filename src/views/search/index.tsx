@@ -17,7 +17,7 @@ export const Search = () => {
     handlePaymentMethods,
   } = useSearch();
   return (
-    <div className="flex flex-col gap-y-2 flex-grow ">
+    <div className="flex flex-col gap-y-2 flex-grow bg-gradient-to-r from-white via-purple-100 to-purple-200 ">
       <SearchBar
         isSearchDisabled={isLoading}
         handleSearchSubmit={handleSearchSubmit}
